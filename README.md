@@ -13,10 +13,10 @@ and the performances of the various channels.
 - There were blank rows in the Income column. I opened the data in excel initially and filled the blank cells using find and select.
 - Created a new column(Age) using the preexisting column (year of birth of customers).
 
-- Now to answer the second question, I plotted a scatter plot using four quantitative variables against the NumWebPurchases column.
+- Now to answer the second question, I plotted a scatter plot using four quantitative variables against the `NumWebPurchases` column.
 The scatter plot could not give a clear indication of the relationship between the variables and the web purchases so I went ahead to
 to find the p_value using linregress.
-The p_values for the various variables that is Income, Age, Kid at home, Teen at home and Number of web visits per month rejected
+The p_values for the various variables that is `Income`, `Age`, `Number of Kids at home`, `Number of Teen at home` and `Number of web visits per month` rejected
 the null hypothesis. Therefore the conclusion that all those variables are significantly relatd to Web Purchases(Number of purchases
 made through the company's website was made. 
 For categorical variables(Marital status and Country), I used bar charts for the visualization and f_oneway to find the P-values. 
@@ -29,7 +29,7 @@ rejected and accepted offers and then plotting to visually see the difference.
 
 - To answer the question, what products is performing best, I created a dataframe with the products and total amount spent on them
 over the past two years. I sorted the sum of the purchases and plotted them using a bar chart. The products that are performing best 
-are Wine and Meat products. The least performing product is Fruits.
+are `Wine` and `Meat` products. The least performing product is Fruits.
 
-- The underperforming channels are NumdealsPurchases and NumCatalogPurchases. The total number of purchases made using a discount(NumdealsPurchases) and number 
+- The underperforming channels are `NumdealsPurchases` and `NumCatalogPurchases`. The total number of purchases made using a discount(NumdealsPurchases) and number 
 of purchases made using a catalogue( NumCatalogPurchases) are `5208` and `5963` respectively. I used the same process used in finding the best performing product.
